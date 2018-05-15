@@ -20,7 +20,6 @@
 int main(int argc, char** argv) {
     FILE *fp;
     char testo [100];
-    char line [80];
     fp = fopen("/home/matteo/NetBeansProjects/GestioneFile/filen.txt", "r");
     /* Cambia il path di fopen a seconda del file che vuoi leggere */
     if(fp == NULL){
