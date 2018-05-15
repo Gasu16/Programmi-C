@@ -5,7 +5,7 @@
  */
 
 /* 
- * File:   mainFile.c
+ * File:   leggiFile.c
  * Author: matteo
  *
  * Created on 15 maggio 2018, 15.45
