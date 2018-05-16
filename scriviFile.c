@@ -23,8 +23,10 @@ int main(int argc, char** argv) {
 
     /* Cambia il path di fopen a seconda del file che vuoi leggere */
     if(fp == NULL){
+        /* In teoria aprendo il file con "w+" questa condizione non dovrebbe mai verificarsi
+        poiche' se il file non esiste, ne crea automaticamente uno nuovo */
         printf("File non trovato");
-        exit(EXIT_FAILURE);
+        exit(EXIT_FAILURE); // System call
     }
     
     fprintf(fp, "Sicilia\n"); // Scriviamo la stringa sul file indicato da fp
