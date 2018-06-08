@@ -21,7 +21,7 @@ void *printB(void *arg){
 }
 
 int main(int argc, char** argv) {
-    pthread_t th1, th2;
+    pthread_t th1, th2; // ID che serviranno per la gestione dei threads
     pthread_create(&th1, NULL, printA, NULL); // Creiamo il primo thread
     pthread_create(&th2, NULL, printB, NULL); // Creiamo il secondo thread
     pthread_join(th1, NULL);
