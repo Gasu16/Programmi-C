@@ -1,5 +1,5 @@
 /* Calcolatrice con i thread
- * File:   newmain.c
+ * File:   CALCthread.c
  * Author: matteo
  */
 #include <stdio.h>
