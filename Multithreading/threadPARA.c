@@ -1,4 +1,4 @@
-// Passiamo un parametro condiviso a 2 thread
+// Parametro condiviso fra 2 thread
 
 #include <stdio.h>
 #include <stdlib.h>
