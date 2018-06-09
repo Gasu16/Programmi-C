@@ -1,7 +1,7 @@
-/* Semplice gioco gestito con i threads 
+/* Semplice gioco del tris gestito con i threads 
  * File:   tristhreads.c
  * Author: matteo
- *
+ * Ancora da migliorare, bug da correggere
  * Created on 9 giugno 2018, 19.37
  */
 
